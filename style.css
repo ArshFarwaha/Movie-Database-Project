@@ -90,6 +90,12 @@ NAVIGATION
   font-weight: 700;
 }
 
+.genre,
+.movies,
+.tv-shows {
+  cursor: no-drop;
+}
+
 .nav__link--btn {
   display: flex;
 }
@@ -108,6 +114,7 @@ NAVIGATION
   max-width: 240px;
   padding: 12px 24px;
   transition: all 100ms ease;
+  cursor: no-drop;
 }
 
 .btn__signup:hover {
@@ -126,6 +133,7 @@ NAVIGATION
   background-color: transparent;
   border: none;
   color: #fff;
+  cursor: no-drop;
 }
 
 .fa-solid {
